@@ -1,45 +1,22 @@
 #include <stdio.h>
+ /**
+  *main - main block
+  *Description: Get a random number and check
+  *its last digit, compare it with 5
+  * Return: 0
+  */
+ int main(void)
+ {
+   char c = 'a';
 
-/**
-
- * main - printing numbers from 0-9 with commas and space between them
-
- * Description: using the main function
-
- * this program prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
-
- * Return: 0
-
- */
-
-int main(void)
-  
-{
-  
-  int c;
-  
-
-  
-  for (c = 48; c <= 57; c++)
-    
-    {
-      
-      putchar(c);
-      
-      if (c != 57)
-	
-	{
-	  
-	  putchar(',');
-	  
-	  putchar(' ');
-	  
-	}
-      
-    }
-  
-  putchar('\n');
-  
-  return (0);
-  
-}
+   while (c <= 'z')
+   {
+     if (c != 'e' && c != 'q')
+   {
+     putchar(c);
+   }
+     c++;
+   }
+   putchar('\n');
+   return (0);
+ }
