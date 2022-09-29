@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+/**
+ * putchar - to print characters to the stdout
+ * @c - Charcter to print.
+ *
+ * Return: 1 on sucess,errno is set appropriatly
+ */
+
+int putchar(char c)
+{
+  return (write(1,&c,1));
+}
