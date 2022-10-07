@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * malloc_checked - allocates memory
+ * @b - unsigned int
+ *
+ * Return: nothing (0);
+ */
+
+void *malloc_checked(unsigned int b);
+{
+  int b;
+  b = malloc(sizeof(int);
+	     if (!*b)
+	       {
+		 return (0);
+	       }
+	     free(b);
+}
