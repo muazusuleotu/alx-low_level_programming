@@ -7,6 +7,10 @@ include "variadic_functions.h"
  * @n: number of elements
  * Return: void
  */
+
+(char **__bufloc, size_t *__sizeloc) __THROW __wur;
+(void *__s, size_t __len, const char *__modes);
+
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 va_list ap;
